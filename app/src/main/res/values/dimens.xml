@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sign_up_screen_btn_marginTop">50dp</dimen>
+    <dimen name="authenticaiton_screen_till_margintop">20dp</dimen>
+    <dimen name="et_text_size">16sp</dimen>
+    <dimen name="authenticaiton_screen_till_marginstartend">16dp</dimen>
+    <dimen name="card_view_layout_content_padding">16dp</dimen>
+    <dimen name="card_view_corner_radius">10dp</dimen>
+    <dimen name="cardview_elevation">10dp</dimen>
+    <dimen name="authentication_cardview_margintop">60dp</dimen>
+    <dimen name="authentication_screen_marginStartEnd">25dp</dimen>
+    <dimen name="authentication_description_text_size">16sp</dimen>
+    <dimen name="authentication_screen_content_margin_top">40dp</dimen>
+    <dimen name="toolbar_title_text_size">18sp</dimen>
+    <dimen name="height_of_nav_menu">200dp</dimen>
+    <dimen name="nav_content_margin_StartEnd">16dp</dimen>
+    <dimen name="nav_content_margin_bottom">10dp</dimen>
+    <dimen name="nav_divider_height">0.5dp</dimen>
+    <dimen name="nav_image_circular_border_width">3dp</dimen>
+    <dimen name="nav_user_name_text_size">18sp</dimen>
+    <dimen name="nav_content_margin_top">5dp</dimen>
+    <dimen name="nav_omage_size">80dp</dimen>
+</resources>

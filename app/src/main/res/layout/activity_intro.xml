@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".activites.intro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trello Clone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        />
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:src="@drawable/signup"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkgray"
+        android:text="Let's get started"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightgray"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Collaborate and Plan together Across Multiple Devices on Trello Clone's Minimalist interface."
+        android:layout_marginTop="5dp"
+        />
+    <android.widget.Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_button_rounded"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="SIGN IN"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        >
+    </android.widget.Button>
+
+    <android.widget.Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/white_border_shape_button"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="SIGN UP"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color2"
+        >
+
+    </android.widget.Button>
+
+</LinearLayout>
